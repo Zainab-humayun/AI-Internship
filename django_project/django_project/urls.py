@@ -1,5 +1,5 @@
 """
-URL configuration for django_learning project.
+URL configuration for django_project project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -21,6 +21,5 @@ from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('blog_dev/', include('blog.urls')),
+     path('blog/', include('blog.urls')),
 ]
-
